@@ -8,6 +8,7 @@ header {
 }
 
 h1 {
+    font-family: 'Dancing Script', cursive;
     font-size: 3em;
     color: #1F2122;
     text-align: center;
@@ -22,6 +23,8 @@ h1 {
 }
 
 #navbar a {
+    font-family: 'Handlee', cursive;
+    font-size: 1.25em;
     float: left;
     display: block;
     color: #1F2122;
@@ -36,21 +39,28 @@ h1 {
 }
 
 h2 {
+    font-family: 'Dancing Script', cursive;
     font-size: 2.5em;
-    margin-top: 5%;
-    margin-left: 10%;
+    margin-top: 2%;
+    margin-left: 8%;
     color: #575C63;
 }
 
+#images {
+    justify-content: center;
+}
+
 #image-gallery {
-	display: grid;
+    display: grid;
 	grid-template-columns: auto auto auto;
-	margin-top: 10%;
-    margin-left: 10%;
+}
+
+figure {
+    text-align: center;
 }
 
 img {
-    padding: 10px;
+    padding: 5px;
     border-style: solid;
     border-width: 5px;
     border-radius: 10px;
@@ -58,27 +68,36 @@ img {
 }
 
 figcaption {
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    text-align: left;
     color: #575C63;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #about-image {
-    width: 25%;
-    margin: auto;
     padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about-text {
+    width: 60%;
+    margin: auto;
 }
 
 p {
+    font-family: 'Handlee', cursive;
     font-size: 1.25em;
-    width: 60%;
     color: #1F2122;
     text-indent: 2em;
-    margin: auto;
 }
 
 footer {
     background-color: #AFC0D7;
     position: absolute;
-    bottom: 0;
-    width: 99%;
+    width: 99.5%;
     height: 7%;
+    margin-top: 5%;
 }
